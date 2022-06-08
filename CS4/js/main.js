@@ -13,10 +13,28 @@ var email = "",
         if (email.length == 0) {
             validationResponse = { code: 400, message: "Please enter email address" };
         }
-        else if (!email.match(/^w+([\.-]?w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
-            validationResponse = { code: 400, message: "Email format not valid" };
+        else if (!email.match (/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/)) {
+            
+                validationResponse = { code: 400, message: "Email format not valid" };
+        }   
+        if (password.valueOf.length == 6) {
+            validationResponse = { code: 400, message: "Minimum of 6 characters" };
         }
-
-        return validationResponse;
+        if (confirmPassword.valueOf.length == 6) {
+            validationResponse = { code: 400, message: "Minimum of 6 characters" };
+        }
+        if (firstName.length == 0) {
+            validationResponse = { code: 400, message: "required" };
+        }
+        if (lastName.length == 0) {
+            validationResponse = { code: 400, message: "required" };
+        }
+        if (Sex == undefined) {
+            validationResponse = { code: 400, message: "please choose one" }
+        }
+        if (iAgree == false) {
+            validationResponse = { code: 400, message: "Agree to the Terms and Conditions" }
+        }
+            return validationResponse;
         
     }
