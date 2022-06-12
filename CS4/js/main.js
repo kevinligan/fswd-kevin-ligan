@@ -18,10 +18,10 @@ var email = "",
                 validationResponse = { code: 400, message: "Email format not valid" };
         }   
         if (password.valueOf.length == 6) {
-            validationResponse = { code: 400, message: "Minimum of 6 characters" };
+            validationResponse = { code: 400, message: "Must have a minimum of 6 characters" };
         }
         if (confirmPassword.valueOf.length == 6) {
-            validationResponse = { code: 400, message: "Minimum of 6 characters" };
+            validationResponse = { code: 400, message: "Must have a minimum of 6 characters" };
         }
         if (firstName.length == 0) {
             validationResponse = { code: 400, message: "required" };

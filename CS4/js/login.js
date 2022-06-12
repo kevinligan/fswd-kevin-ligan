@@ -19,7 +19,11 @@ var email = "",
         else if (!email.match(/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/)) {
             validationResponse = { code: 400, message: "Email format not valid" };
         }
-      
+        if (password == "") {
+            validationResponse = { code: 400, message: "Password is required" };
+        }
+        
+
         return validationResponse;
         
     }
