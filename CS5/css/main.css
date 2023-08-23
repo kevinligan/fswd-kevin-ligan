@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+min-height: 100vh;
+width: 100%;
+background: linear-gradient(0deg, rgba(37, 37, 37, 0.1), rgba(37, 37, 37, 0.1)), 
+linear-gradient(90deg, rgba(181, 181, 181, 0.7) 33.21%, rgba(255, 255, 255, 0) 100%), url(images/2.jpg);
+background-position: center;
+background-size: cover;
+position: relative;
+}
+.logo img{
+    width: 900px;
+    float: left;
+    padding-right: 50px;
+    padding-top: 0px;
+}
+.register{
+    width: 275px;
+    height: 44px;
+    
+}
+.register a{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 80px;
+
+position: absolute;
+width: 342px;
+height: 91px;
+left: 255px;
+top: 800px;
+
+background-color: transparent;
+border: 3px solid #28B8C8;
+color: #28B8C8;
+}
+.login{
+    position: absolute;
+width: 130px;
+height: 42px;
+left: 350px;
+top: 900px;
+}
+.login a{
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+
+border-color: transparent;
+background-color: transparent;
+color: #28B8C8;
+}
+#rectangle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32%;
+    height: 100%;
+    background-color: rgba(240, 240, 240, 0.55);
+    z-index: -1;
+  }
+.shop{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: xx-large;;
+    color: #28B8C8;
+
+    box-sizing: border-box; width: 600px;
+border: 10px solid #28B8C8;
+}
+.categories ul{
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    color: #28B8C8;
+    
+  
+}
+.categories ul li{
+    margin-right: 30px;
+    cursor: help;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.categories ul li a{
+    text-decoration: none;
+    color: #28B8C8;
+    
+}
+.top{
+    margin-left: 300px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-size: xx-large;
+    color: #28B8C8;
+
+    box-sizing: border-box; width: 600px;
+border: 10px solid #28B8C8;
+}
+.top5 ol{
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    color: #28B8C8;
+}
+.top5 ol li{
+    margin-right: 40px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 40px;
+}
+.top5 ol li a{
+    text-decoration: none;
+    color: #28B8C8;
+}

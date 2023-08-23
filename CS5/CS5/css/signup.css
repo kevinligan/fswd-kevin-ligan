@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(37, 37, 37, 0.1), rgba(37, 37, 37, 0.1)), 
+    linear-gradient(90deg, rgba(181, 181, 181, 0.7) 33.21%, rgba(255, 255, 255, 0) 100%), url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    }
+    h1{
+        position: absolute;
+        width: 373px;
+        height: 44px;
+        left: 969px;
+        top: 114px;
+    }
+    .join{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+     line-height: 46px;
+
+     color: #FAFF00;
+
+    }
+    .email{
+        position: absolute;
+        width: 74px;
+        height: 27px;
+        left: 915px;
+        top: 191px;
+     }
+     .email label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        
+        color: #FFFFFF;
+
+     }
+     .email input{
+        width: 482px;
+        height: 74px;
+        left: 915px;
+        top: 227px;
+
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+     }
+     .password{
+        position: absolute;
+        width: 139px;
+        height: 27px;
+        left: 915px;
+        top: 334px;
+     }
+     .password label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+
+        color: #FFFFFF;
+
+     }
+     .password input{
+        width: 482px;
+        height: 74px;
+        left: 915px;
+        top: 368px;
+        
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+     }
+     .confirmpassword{
+        position: absolute;
+        width: 255px;
+        height: 27px;
+        left: 915px;
+        top: 475px;
+     }
+     .confirmpassword label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        
+        color: #FFFFFF;
+        
+     }
+     .confirmpassword input{
+        width: 482px;
+        height: 74px;
+        left: 915px;
+        top: 509px;
+        
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+     }
+     .firstname{
+        position: absolute;
+        width: 142px;
+        height: 27px;
+        left: 915px;
+        top: 616px;
+     }
+     .firstname label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        
+        color: #FFFFFF;
+     }
+     .firstname input{
+        width: 229px;
+        height: 74px;
+        left: 915px;
+        top: 650px;
+        
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+     }
+     .lastname{
+        position: absolute;
+        width: 135px;
+        height: 27px;
+        left: 1168px;
+        top: 616px;
+     }
+     .lastname label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+       
+        color: #FFFFFF;
+     }
+     .lastname input{
+        width: 229px;
+        height: 74px;
+        left: 1168px;
+        top: 650px;
+        
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+     }
+    .gender{
+       position: absolute;
+       width: 45px;
+       height: 27px;
+       left: 915px;
+       top: 747px;
+       
+       font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 22px;
+       line-height: 27px;
+       
+       
+       
+       color: #FFFFFF;
+    }
+     .male{
+        position: absolute;
+        width: 66px;
+        height: 27px;
+        left: 955px;
+        top: 781px;
+     }
+     .male label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+       
+        
+        color: #FFFFFF;
+     }
+     .m1{
+       position: absolute;
+        width: 27px;
+        height: 27px;
+        left: 915px;
+        top: 781px;
+       
+     }
+     .m1 input{
+          
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+        border: 200px;
+     }
+     .female{
+        position: absolute;
+        width: 95px;
+        height: 27px;
+        left: 1210px;
+        top: 781px;
+        
+     }
+     .female label{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+       
+        
+        color: #FFFFFF;
+        
+     }
+     .fm1{
+        position: absolute;
+        width: 27px;
+        height: 27px;
+        left: 1170px;
+        top: 781px;
+
+     }
+     .fm1 input{
+        background: rgba(255, 255, 255, 0.8);
+        border: 3px solid rgba(79, 79, 79, 0.5);
+        border: 200px;
+    }
+    .tad{
+        position: absolute;
+        width: 447px;
+        height: 27px;
+        left: 964px;
+        top: 831px;
+    }
+    .tad label{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+
+color: #FFFFFF;
+
+    }
+    .tad label a{
+        position: absolute;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+    }
+    .tad label a{
+        display:inline;
+text-decoration: none;
+color: #FAFF00;
+    }
+    .tad1{
+        position: absolute;
+width: 27px;
+height: 27px;
+left: 929px;
+top: 831px;
+
+    }
+    .tad1 input{
+        
+background: rgba(255, 255, 255, 0.8);
+border: 3px solid rgba(79, 79, 79, 0.5);
+border: 200px;
+    }
+    .submit{
+        position: absolute;
+width: 155px;
+height: 36px;
+left: 1066px;
+top: 881px;
+    }
+    .submit a{
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 46px;
+
+color: #F9F9F9;
+
+    }
+    .submit a{
+        background-color: transparent;
+        border-color: transparent;
+    }
+    img{
+        width: 900px;
+    }
+    

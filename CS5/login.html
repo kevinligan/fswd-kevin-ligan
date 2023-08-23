@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/main3.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
@@ -15,11 +15,13 @@
     <div class="email">
         <label id="email_label" for="email">EMAIL</label>
         <input id="email" name="email" type="email" class="form-control" />
+        <div id="email_error" class="error-message"></div>
     </div>
     &nbsp;
     <div class="password">
         <label id="password_label" for="password">PASSWORD</label>
         <input id="password" name="password" type="password" class="form-control" />
+        <div id="password_error" class="error-message"></div>
     </div>
     &nbsp;
         <div class="remember1"><input id="rememberme" 
@@ -28,10 +30,11 @@
             class="form-check-label" for="rememberme">REMEMBER ME</label></div>
     &nbsp;
    <div class="forgot"><a class="btn btn-primary btn-sm " 
-    href="C:\Users\kevin\Documents\GitHub\fswd-kevin-ligan\CS3\forgot.html" 
+    href="forgot.html" 
     role="button">FORGOT&nbsp;PASSWORD?</a></div>
     &nbsp;
     <div class="login"><a class="btn btn-primary btn-sm " href="#" role="button">LOGIN</a></div>
     <img src="css/images/logo.png" alt="logo">
+    <script src="js/login.js"></script>
 </body>
 </html>
